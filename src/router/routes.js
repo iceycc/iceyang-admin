@@ -35,12 +35,6 @@ const frameIn = [
         name: 'page3',
         component: () => import('@/pages/page3'),
         meta: { meta, title: '页面 3' }
-      },
-      {
-        path: '/post',
-        name: 'post',
-        component: () => import('@/pages/post'),
-        meta: { meta, title: '文章页' }
       }
     ]
   }

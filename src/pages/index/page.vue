@@ -1,7 +1,7 @@
 <template>
   <d2-container class="page">
     <d2-page-cover
-      title="I AM D2ADMIN"
+      title="I AM 王冰洋"
       sub-title="追求简约美感的后台管理系统集成方案">
       <d2-icon-svg style="width: 120px;" name="d2-admin"/>
       <template slot="footer">

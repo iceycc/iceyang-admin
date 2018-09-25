@@ -1,6 +1,6 @@
 <template>
   <d2-container>
-    <template slot="header">Page 2 header</template>
+    <template slot="header">post-categories</template>
     Hello World
     <template slot="footer">footer</template>
   </d2-container>
@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'page2'
+  name: 'post-categories'
 }
 </script>

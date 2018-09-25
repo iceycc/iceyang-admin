@@ -19,28 +19,46 @@ const frameIn = [
         component: () => import('@/pages/index')
       },
       {
-        path: '/page1',
-        name: 'page1',
-        component: () => import('@/pages/page1'),
-        meta: { meta, title: '页面 1' }
+        path: 'post/post-list',
+        name: 'post-list',
+        meta: { meta, title: '文章列表' },
+        component: () => import('@/pages/post')
       },
       {
-        path: '/page2',
-        name: 'page2',
-        component: () => import('@/pages/page2'),
-        meta: { meta, title: '页面 2' }
+        path: 'post/post-add',
+        name: 'post-add',
+        meta: { meta, title: '写文章' },
+        component: () => import('@/pages/post/post-add.vue')
       },
       {
-        path: '/page3',
-        name: 'page3',
-        component: () => import('@/pages/page3'),
-        meta: { meta, title: '页面 3' }
+        path: 'post/post-add-md',
+        name: 'post-add-md',
+        meta: { meta, title: '写文章-md' },
+        component: () => import('@/pages/post/post-add-md.vue')
       },
       {
-        path: '/post',
-        name: 'post',
-        component: () => import('@/pages/post'),
-        meta: { meta, title: '文章页' }
+        path: 'post/post-categories',
+        name: 'post-categories',
+        meta: { meta, title: '写文章' },
+        component: () => import('@/pages/post/post-categories.vue')
+      },
+      {
+        path: 'comment',
+        name: 'comment',
+        component: () => import('@/pages/comment'),
+        meta: { meta, title: '评论' }
+      },
+      {
+        path: 'setting',
+        name: 'setting',
+        component: () => import('@/pages/setting'),
+        meta: { meta, title: '设置 ' }
+      },
+      {
+        path: 'users',
+        name: 'users',
+        component: () => import('@/pages/users'),
+        meta: { meta, title: '用户' }
       }
     ]
   }

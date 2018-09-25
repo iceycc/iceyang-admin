@@ -12,6 +12,7 @@ if (process.env.VUE_APP_TRAVIS === 'TRUE') baseUrl = '/d2-admin-start-kit/'
 
 module.exports = {
   baseUrl: baseUrl, // 根据你的实际情况更改这里
+  outputDir: 'pages',
   lintOnSave: true,
   devServer: {
     publicPath: baseUrl // 和 baseUrl 保持一致

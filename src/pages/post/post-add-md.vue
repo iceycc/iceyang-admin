@@ -1,6 +1,6 @@
 <template>
   <d2-container>
-    <template slot="header">写文章markdown格式</template>
+    <template slot="header">写文章markdown</template>
     <d2-mde
       v-model="text"
       class="mde"/>

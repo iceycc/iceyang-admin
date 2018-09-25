@@ -1,15 +1,20 @@
 <template>
   <d2-container>
     <template slot="header">基本示例</template>
-    <d2-quill
-      style="min-height: 200px;"
-      v-model="value"
-      @text-change="textChangeHandler"
-      @selection-change="selectionChangeHandler"
-      @editor-change="editorChangeHandler"/>
-    <el-card shadow="never" class="d2-card d2-mt">
+    <section style="diplay:flex">
+          <d2-quill
+            style="min-height: 200px;"
+            v-model="value"
+            @text-change="textChangeHandler"
+            @selection-change="selectionChangeHandler"
+            @editor-change="editorChangeHandler"/>
+            <section>
+2121
+            </section>
+    </section>
+    <!-- <el-card shadow="never" class="d2-card d2-mt">
       <d2-highlight :code="value" format-html/>
-    </el-card>
+    </el-card> -->
   </d2-container>
 </template>
 

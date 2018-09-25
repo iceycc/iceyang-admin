@@ -22,7 +22,7 @@ const frameIn = [
         path: 'post/post-list',
         name: 'post-list',
         meta: { meta, title: '文章列表' },
-        component: () => import('@/pages/post')
+        component: () => import('@/pages/post/post-list')
       },
       {
         path: 'post/post-add',

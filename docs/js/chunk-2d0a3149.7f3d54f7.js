@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a3149"],{"013e":function(e,t,o){"use strict";o.r(t);var n=function(){var e=this,t=e.$createElement,o=e._self._c||t;return o("d2-container",[o("template",{slot:"header"},[e._v("post-categories")]),e._v("\n  Hello World\n  "),o("template",{slot:"footer"},[e._v("footer")])],2)},l=[],s={name:"post-categories"},a=s,r=o("2877"),c=Object(r["a"])(a,n,l,!1,null,null,null);c.options.__file="post-categories.vue";t["default"]=c.exports}}]);
+//# sourceMappingURL=chunk-2d0a3149.7f3d54f7.js.map

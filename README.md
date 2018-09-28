@@ -10,6 +10,7 @@
 - [ ] 接口联调
 - [ ] 开发合适的前台展示页面
 - [ ] 注意不要往master何必自己检出的分支
+- [ ] url状态控制
 
 ## 部分截图
 ![](http://ww1.sinaimg.cn/mw690/6b31d030ly1fvm84p9jcjj228013ewjm.jpg)

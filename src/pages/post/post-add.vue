@@ -25,8 +25,8 @@
 export default {
   data() {
     return {
-      value: ""
-    };
+      value: ''
+    }
   },
   methods: {
     textChangeHandler(delta, oldDelta, source) {
